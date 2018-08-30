@@ -1,0 +1,960 @@
+*
+{
+    box-sizing: border-box;
+    color: white;
+    font-family: helvetica, sans-serif, Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.info
+{
+    height: 1800px;
+    padding: 5% 5% 0 10%;
+    width: 65%;
+}
+
+.sobre
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+h2
+{
+    font-weight: 500;
+    letter-spacing: .1em;
+    padding-left: 2%;
+    text-transform: uppercase;
+}
+
+hr
+{
+    margin: 2% 0;
+    width: 95%;
+}
+
+.desc_sobre
+{
+    line-height: 1.4em;
+    padding: 0px 0px 2em 1em;
+    text-align: justify;
+}
+
+.formacao
+{
+    height: 22em;
+}
+
+.desc_formacao
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+
+.desenv_sist 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.desenv_sist .escola
+{
+    margin-left: 15%;
+}
+
+.desenv_sist .sep_vertical
+{
+    border-left: .1em solid;
+    height: 2em;
+    margin: 0% 4%;
+}
+
+.automacao
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.automacao .escola
+{
+    margin-left: 15%;
+}
+
+.automacao .sep_vertical
+{
+    border-left: .1em solid;
+    margin: 0% 3.3%;
+    height: 2em;
+}
+
+.manut_ferrov
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.manut_ferrov .escola
+{
+    margin-left: 15%;
+}
+
+.manut_ferrov .sep_vertical
+{
+    border-left: .1em solid;
+    height: 2em;
+    margin: 0% 4%;
+}
+
+.timeline_form
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 18em;
+    transform: translateY(-76%);
+    width: 9.5em;
+}
+
+.line_formacao
+{
+    border-left: .1em solid;
+    height: 14em;
+}
+
+.ponto_formacao1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    transform: translateY(-12.65em);
+    width: 1em;
+}
+
+.ponto_formacao2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    transform: translateY(-8.2em);
+    width: 1em;
+}
+
+.ponto_formacao3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    transform: translateY(-3.8em);
+    width: 1em;
+}
+
+.exp_prof
+{
+    height: 22em;
+}
+
+.desc_exp
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+
+desc_exp .sep_vertical
+{
+    border-left: .1em solid;
+    margin: 0% 3.3%;
+    height: 2em;
+}
+
+.cptm
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cptm .ano_exp
+{
+    margin-left: 15%;
+}
+
+.cptm .sep_vertical
+{
+    border-left: .1em solid;
+    margin: 0% 3.3%;
+    height: 2em;
+}
+
+.senai
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+}
+
+.senai .ano_exp
+{
+    margin: 0% 9.8%;
+}
+
+.senai .empresa
+{
+    margin-right: 4.3%;
+}
+
+.senai .sep_vertical
+{
+    border-left: .1em solid;
+    margin: 0% 3.3%;
+    height: 2em;
+}
+
+.exp_manut_ferrov
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+}
+
+.exp_manut_ferrov .ano_exp
+{
+    margin-left: 16.2%;
+}
+
+.exp_manut_ferrov .sep_vertical
+{
+    border-left: .15em solid;
+    margin: 0% 3.3%;
+    height: 2em;
+}
+
+.timeline_exp
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1em;
+    transform: translateY(-500%);
+    width: 8.5em;
+}
+
+.line_exp
+{
+    border-left: .1em solid;
+    height: 14.5em;
+    margin-left: 26em;
+    transform: translateY(-100%);
+}
+
+.ponto_exp1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: 25.56em;
+    transform: translateY(-27.8em);
+    width: 1em;
+}
+
+.ponto_exp2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: 25.56em;
+    transform: translateY(-23.4em);
+    width: 1em;
+}
+
+.ponto_exp3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: 25.56em;
+    transform: translateY(-19em);
+    width: 1em;
+}
+
+.hab_tec
+{
+    height: 23em;
+}
+
+.desc_hab_tec
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+}
+
+.nivel
+{
+    display: flex;
+    margin-left: 11em;
+    transform: translateY(-1.1em);
+}
+
+.illustrator .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.illustrator .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.illustrator .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.illustrator .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.illustrator .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.illustrator .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.photoshop .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.photoshop .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.photoshop .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.photoshop .ponto4
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.photoshop .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.photoshop .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.xd .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.xd .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.xd .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.xd .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.xd .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.xd .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.autocad .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.autocad .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.autocad .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.autocad .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.autocad .ponto5
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.autocad .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.office .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.office .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.office .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.office .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.office .ponto5
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.office .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.html_e_css .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.html_e_css .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.html_e_css .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.html_e_css .ponto4
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.html_e_css .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.html_e_css .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.ui_e_ux .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_interesses
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+.dados_pessoais
+{
+    background-color: #444444;
+    display: flex;
+    flex-direction: column;
+    font-size: 85%;
+    height: 1800px;
+    padding: 5% 2%;
+    width: 25%;
+}
+
+.dados_pessoais h2
+{
+    font-size: 1.2em;
+}
+
+.dados_pessoais hr
+{
+    margin: 4% 0;
+}
+
+.img_perfil
+{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    width: 100%;
+}
+
+.img_perfil img
+{
+    height: 11em;
+    width: 11em;
+}
+
+.desc_perfil
+{
+    padding-left: 4%;
+    line-height: 1.5em;
+}
+
+.contato
+{
+    margin-top: 30%;
+}
+
+.desc_contato
+{
+    padding-left: 4%;
+    line-height: 1.5em;
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.idiomas
+{
+    margin-top: 30%;
+}
+
+.desc_idiomas
+{
+    padding-left: 4%;
+    line-height: 1.5em;
+}
+
+.desc_idiomas .pt-br .nivel
+{
+    display: flex;
+    margin-left: 6em;
+    transform: translateY(-1.2em);
+}
+
+.desc_idiomas .pt-br .nivel .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .pt-br .nivel .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .pt-br .nivel .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .pt-br .nivel .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .pt-br .nivel .ponto5
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .pt-br .nivel .ponto6
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel
+{
+    display: flex;
+    margin-left: 6em;
+    transform: translateY(-1.2em);
+}
+
+.desc_idiomas .en .nivel .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel .ponto4
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel .ponto5
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.desc_idiomas .en .nivel .ponto6
+{
+    border: .1em solid;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.hab_pessoais
+{
+    margin-top: 30%;
+}
+
+.desc_hab_pessoais
+{
+    padding-left: 4%;
+    line-height: 1.5em;
+}
+
+.nivel_criacao
+{
+    display: flex;
+    margin: 5% 0% 10% 0;
+}
+
+.nivel_criacao .ponto1
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.nivel_criacao .ponto2
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.nivel_criacao .ponto3
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.nivel_criacao .ponto4
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.nivel_criacao .ponto5
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
+
+.nivel_criacao .ponto6
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 1em;
+    margin-left: .5em;
+    width: 1em;
+}
